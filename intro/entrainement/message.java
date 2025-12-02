@@ -7,7 +7,7 @@ public class message {
         String VotreNom;
         System.out.println("quel est votre nom ?");
         VotreNom = sc.nextLine();
-        System.out.println("Votre nom est "+VotreNom);
+        System.out.println("Votre nom est "+VotreNom+"c'est un beau nom");
         sc.close();
 
     }
