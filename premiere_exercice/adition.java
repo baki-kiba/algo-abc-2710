@@ -6,9 +6,10 @@ public class adition {
         Scanner sc = new Scanner(System.in);
         int add1;
         int add2;
-        System.out.println("");
-        add1=sc.nextInt();
+        
         System.out.println("Entrer un premier nombre de l'addition");
+        add1=sc.nextInt();
+        System.out.println("Entrer le deuxieme nombre de l'addition11");
         add2=sc.nextInt();
         int resultat=add1+add2;
         System.out.println("le résultat de l'édition est "+resultat);
