@@ -1,21 +1,21 @@
 package premiere_exercice;
 import java.util.Scanner;
 
-public class adition {
+public class soustraction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int add1;
         int add2;
          //première entrer
-        System.out.println("Entrer le premier nombre de l'addition");
+        System.out.println("Entrer le premier nombre de la soustraction");
        
         add1=sc.nextInt();
          //deuxime entrer
-        System.out.println("Entrer le deuxieme nombre de l'addition11");
+        System.out.println("Entrer le deuxieme nombre de la soustraction");
         add2=sc.nextInt();
-        int resultat=add1+add2;
-        System.out.println("le résultat de l'adition est "+resultat);
+        int resultat=add1-add2;
+        System.out.println("le résultat de la soustraction est "+resultat);
         sc.close();
 
-    }
+    } 
 }
