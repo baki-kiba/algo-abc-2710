@@ -22,17 +22,17 @@ public class learnEnglish {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String reponse;
-        String no= "no";
-        String yes= "yes";
+        String messfalse="So learn english";
+        String messtrue="Nice to meet you";
         System.out.println("Do you speak English");
         reponse =sc.nextLine();
-        if(reponse==no || reponse !=yes){
-            System.out.println("So learn english");
+        if(reponse.equals("no")){
+            System.out.println(messfalse);
         }
-        if(reponse==yes|| reponse!=no){
-            System.out.println("Nice to meet you");
+        else if(reponse.equals("yes")){
+            System.out.println(messtrue);
         }
-       
+
         sc.close();
 
     }

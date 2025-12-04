@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class initiat1 {
     public static void main(String[] args) {
-        int a;
-        int b;
-        int c;
+        int a, b,c ;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("entrer le premier nombre");

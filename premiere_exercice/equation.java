@@ -17,9 +17,7 @@ public class equation {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        int a;
-        int b;
-        int c;
+        int a, b,c ;
         System.out.println("entre le chiffre a");
         a=sc.nextInt();
         b=sc.nextInt();

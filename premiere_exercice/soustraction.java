@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class soustraction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int add1;
-        int add2;
+        int add1, add2;
          //première entrer
         System.out.println("Entrer le premier nombre de la soustraction");
        
