@@ -85,7 +85,7 @@ public class exo9 {
                     
             }
 
-            
+                        sc.close();
             }
             
 

@@ -69,7 +69,7 @@ public class exo10 {
         
             System.out.println("Résultat du QUIZZ, vous avez "+conter+" point(s) / 5");
 
-        
+            sc.close();
 
     }
 }

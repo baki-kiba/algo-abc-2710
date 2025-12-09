@@ -31,3 +31,28 @@
  * 
  * 
 */
+package Exercices;
+
+import java.util.Scanner;
+
+public class exo15{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double monnaie;
+        double montant;
+        double EUR;
+        double USD;
+        double GPB;
+        double dollarsToEur= 0.8593	;
+        double dollarToLvre;
+        double livresSterlingTOeur =1.1447;	
+        double livretoDollar;
+        System.out.println("Quel est votre monnaie ?");
+        monnaie=sc.nextDouble();
+        System.out.println("Quel est votre montant ?");
+        montant=sc.nextDouble();
+
+
+        
+    }
+}

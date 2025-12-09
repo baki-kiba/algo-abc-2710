@@ -1,4 +1,5 @@
 package premiere_exercice;
+
 import java.util.Scanner;
 
 public class soustraction {
