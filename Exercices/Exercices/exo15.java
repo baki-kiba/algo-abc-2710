@@ -40,7 +40,7 @@ public class exo15{
         Scanner sc = new Scanner(System.in);
         double monnaie;
         double montant;
-        double EUR;
+        double EUR ;
         double USD;
         double GPB;
         double dollarsToEur= 0.8593	;
@@ -51,8 +51,7 @@ public class exo15{
         monnaie=sc.nextDouble();
         System.out.println("Quel est votre montant ?");
         montant=sc.nextDouble();
-
-
+        
         
     }
 }
