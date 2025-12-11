@@ -24,14 +24,24 @@ public class exo3{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int isPaireImpaire;
+        boolean isPairBool=false;
+        while(!isPairBool){
+        try{
         System.out.println("Entrer le premier à tester");
         isPaireImpaire=sc.nextInt();
-        if (isPaireImpaire%2==0){
+            if (isPaireImpaire%2==0){
             System.out.println("L'entrer est paire");
         }
         else
         {
             System.out.println("L'entrer est impaire");
+        }
+        isPairBool=true;
+    }
+        catch (java.util.InputMismatchException e) {
+        System.out.println("Erreur: au moins une saisie n'est pas un entier !");
+        sc.nextLine();}
+
         }
         sc.close();
 

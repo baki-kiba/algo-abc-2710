@@ -51,6 +51,7 @@ public class exo15{
         monnaie=sc.nextDouble();
         System.out.println("Quel est votre montant ?");
         montant=sc.nextDouble();
+        sc.close();
         
         
     }
