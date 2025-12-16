@@ -12,6 +12,6 @@ public class Exercice_1 {
         b=sc.nextInt();
         c=(a+b)/(double) 2;
         System.out.printf("le resulta est %.2f",c);
-        
+        sc.close();
     }
 }

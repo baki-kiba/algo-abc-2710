@@ -10,11 +10,8 @@ public class Exercoice_1_2 {
         rayon=sc.nextDouble();
         airSphere=4*pii*Math.pow(rayon,2);
         System.out.println("L'aire de la sphere est de "+airSphere);
-        volume=(rayon*pii*Math.pow(3, 3))/3;
+        volume=(rayon*pii*Math.pow(rayon, 3))/3;
         System.out.println("le volume de la sphere est de "+volume);
-        System.out.println("Entrer l'angle ");
-        angleDegrer=sc.nextDouble();
-        surfaceCirculaire=(pii*Math.pow(rayon, 2)*angleDegrer)/360;
-        System.out.println("la surface du secteur circulaire est de "+surfaceCirculaire);
+        sc.close();
         }    
 }
