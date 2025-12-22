@@ -53,7 +53,7 @@ public class exo1 {
         int resultat=add1+add2;
         System.out.println("le résultat de l'adition est "+resultat);
         sc.nextLine();
-    sc.close();
+        sc.close();
     
 }
 }
